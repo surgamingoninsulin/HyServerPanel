@@ -62,8 +62,8 @@ A professional, modern web administration panel for Hytale servers. This project
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/avalontm/hytale-panel.git
-cd hytale-panel
+git clone https://github.com/surgamingoninsulin/HyServerPanel.git
+cd HyServerPanel
 ```
 
 ### 2. Backend Setup
@@ -122,12 +122,12 @@ npm start
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Attribution Required**: You are free to use, modify, and distribute this software, provided that credit to the original creator ([**avalontm**](https://github.com/avalontm)) is maintained in all copies or substantial portions of the software.
+**Attribution Required**: You are free to use, modify, and distribute this software, provided that credit to the original creator ([**GamingOnInslin**](https://github.com/surgamingoninsulin)) is maintained in all copies or substantial portions of the software.
 
 ## Credits
 
-Created and maintained by [**avalontm**](https://github.com/avalontm).
+Created and maintained by [**avalontm**](https://github.com/surgamingoninsulin).
 
 ## Disclaimer
 
-Hytale Panel is an independent project and is not affiliated with Hypixel Studios or the Hytale brand.
+Hytale Server Panel is an independent project and is not affiliated with Hypixel Studios or the Hytale brand.
