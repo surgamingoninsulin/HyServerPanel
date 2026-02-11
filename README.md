@@ -126,7 +126,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Credits
 
-Created and maintained by [**avalontm**](https://github.com/surgamingoninsulin).
+Created and maintained by [**GamingOnInslin**](https://github.com/surgamingoninsulin).
 
 ## Disclaimer
 
