@@ -1,0 +1,24 @@
+NOTE: ./ is inside ./Servers/<server_name>/*
+
+()
+- make the mechanics for detecting LuckPerms-Hytale_*.jar inside ./mods
+- make the mechanic for detecting the server is online in the LuckPerms settings section (currently teels only that the server is offline while its online !)
+- under server name its stating the server is starting but server its online !
+- add in the server information the public ip and port tobe coppied and also a checkbox to if needed to hide ip (like a password default on!)
+- change the serverinformation to be real dynamic server infomation with graphs and make the server information static and not resize when playit.gg is getting bigger 
+- change the quick stats to update to real information with dynamic but no graphs!
+- make sure the login page always shows when the start.vbs or start.sh is opend and the nodejs is fresh started we need to keep good track of the login if logged in go to dashboard if terminating the nodejs set logged in to false and got to /login if no user then go to /setup.
+- add theme support trough css ! and a light and dark theme 
+- create a readme and a changelog
+
+(11-02-2026)
+DONE: - change the about to GamingOnInsulin instead of AvalonTM
+DONE: - change the gitub url in the about to https://www.github.com/surgamingoninsulin/
+DONE: - change version to v2.0.0-ALPHA
+DONE: - change the Visit Repo URL to https://github.com/surgamingoninsulin/HyServerPanel
+DONE: - remive the portfolio button
+DONE: - change the email button to have the email adress GamingOnInslin@gmail.com
+DONE: - change the footer to be english and point it to https://www.github.com/surgamingoninsulin/
+DONE: - add license to the footer
+DONE: - change license to GPL-3.0 license
+DONE: - make sure to not upload the users.json to github

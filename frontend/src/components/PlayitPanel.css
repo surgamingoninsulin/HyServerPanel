@@ -1,0 +1,295 @@
+.playit-panel {
+    margin-bottom: 24px;
+}
+
+.playit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.playit-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-primary);
+}
+
+.playit-title h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.playit-status-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.playit-status-badge.status-success {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.playit-status-badge.status-warning {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.playit-status-badge.status-error {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.playit-status-badge.status-offline {
+    background: rgba(107, 114, 128, 0.1);
+    color: #9ca3af;
+    border: 1px solid rgba(107, 114, 128, 0.3);
+}
+
+.tunnel-info {
+    margin-bottom: 20px;
+}
+
+.tunnel-info label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tunnel-url {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--bg-tertiary);
+    padding: 12px 16px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color);
+}
+
+.url-text {
+    flex: 1;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    color: var(--accent-blue);
+    font-weight: 600;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease;
+}
+
+.icon-btn:hover {
+    color: var(--accent-blue);
+}
+
+.tunnel-note {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.tunnel-disconnected {
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius-sm);
+    margin-bottom: 20px;
+}
+
+.tunnel-disconnected p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.playit-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.playit-actions button {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.playit-footer {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+}
+
+.playit-footer small {
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Fallback Configuration Styles */
+.fallback-config {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color);
+}
+
+.fallback-header h4 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.fallback-description {
+    margin: 0 0 16px 0;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.fallback-inputs {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.fallback-inputs .input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.fallback-inputs label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.fallback-inputs input {
+    padding: 10px 12px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+}
+
+.fallback-inputs input:focus {
+    outline: none;
+    border-color: var(--accent-blue);
+}
+
+.fallback-actions {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.fallback-actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 120px;
+}
+
+/* Save Fallback button: always blue with white text (dashboard and elsewhere) */
+.fallback-actions .btn-primary,
+.fallback-actions .btn-playit-save-fallback,
+.btn-playit-save-fallback {
+    background: linear-gradient(to bottom, var(--accent-blue) 0%, var(--accent-blue-dark) 100%) !important;
+    color: #ffffff !important;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: var(--shadow-md), 0 0 10px rgba(0, 150, 255, 0.3);
+}
+
+.fallback-actions .btn-primary:hover:not(:disabled),
+.fallback-actions .btn-playit-save-fallback:hover:not(:disabled),
+.btn-playit-save-fallback:hover:not(:disabled) {
+    filter: brightness(1.1);
+    color: #ffffff !important;
+    background: linear-gradient(to bottom, var(--accent-blue) 0%, var(--accent-blue-dark) 100%) !important;
+}
+
+.fallback-actions .btn-primary:disabled,
+.fallback-actions .btn-playit-save-fallback:disabled,
+.btn-playit-save-fallback:disabled {
+    opacity: 0.7;
+    color: #ffffff !important;
+}
+
+/* Fallback Settings button (toggle): blue with white text on dashboard */
+.btn-playit-fallback-settings {
+    background: linear-gradient(to bottom, var(--accent-blue) 0%, var(--accent-blue-dark) 100%) !important;
+    color: #ffffff !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.btn-playit-fallback-settings:hover {
+    filter: brightness(1.1);
+    color: #ffffff !important;
+}
+
+.fallback-note {
+    padding: 12px;
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: var(--radius-sm);
+}
+
+.fallback-note small {
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.fallback-note strong {
+    color: #ffffff;
+}
